@@ -288,8 +288,9 @@ def change
 end
 ```
 
-And migrate!
-
+And migrate! 
+- $ `rails db:migrate`
+  
 Lastly, we need to update the User model to include the revocation strategy.
 
 **app/models/user.rb**
